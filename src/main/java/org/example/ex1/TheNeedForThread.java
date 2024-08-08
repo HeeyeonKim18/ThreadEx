@@ -1,4 +1,4 @@
-package org.example;
+package org.example.ex1;
 
 public class TheNeedForThread {
     public static void main(String[] args) throws InterruptedException {

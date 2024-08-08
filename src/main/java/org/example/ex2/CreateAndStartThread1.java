@@ -1,6 +1,6 @@
-package org.example;
+package org.example.ex2;
 
-class SMIFileThread2 extends Thread{
+class SMIFileThread extends Thread{
     @Override
     public void run() {
         // subtitle number 하나 ~ 다섯
@@ -13,30 +13,19 @@ class SMIFileThread2 extends Thread{
 
     }
 }
+public class CreateAndStartThread1 {
+    public static void main(String[] args) throws InterruptedException {
+        // instance SMIFileThread
+        SMIFileThread thread = new SMIFileThread();
+        thread.start();
 
-class VideoThread extends Thread{
-    @Override
-    public void run() {
         // video frame 1 ~ 5
         int[] intArr = {1,2,3,4,5};
 
         for(int i = 0; i < intArr.length; i++){
             System.out.print("(Video) " + intArr[i] + " - ");
-            try {Thread.sleep(200);} catch (InterruptedException e) {}
+            Thread.sleep(200);
         }
-    }
-}
-public class CreateAndStartThread2 {
-    public static void main(String[] args) throws InterruptedException {
-        // instance SMIFileThread
-        SMIFileThread2 thread = new SMIFileThread2();
-        thread.start();
-
-        // instance VideoThread
-        VideoThread videoThread = new VideoThread();
-        videoThread.start();
-
-
 
     }
 }
