@@ -1,4 +1,4 @@
-package org.example.ex5;
+package org.example.thread.ex5;
 
 class DataBox2 {
     boolean isEmpty = true;

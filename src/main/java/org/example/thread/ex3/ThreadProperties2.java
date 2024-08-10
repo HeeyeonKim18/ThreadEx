@@ -1,4 +1,4 @@
-package org.example.ex3;
+package org.example.thread.ex3;
 
 class MyThread extends Thread {
     @Override

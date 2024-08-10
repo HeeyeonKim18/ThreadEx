@@ -1,4 +1,4 @@
-package org.example.ex5;
+package org.example.thread.ex5;
 
 public class NewRunnableTerminated {
     public static void main(String[] args) throws InterruptedException {

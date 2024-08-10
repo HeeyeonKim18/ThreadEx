@@ -1,4 +1,4 @@
-package org.example.ex4;
+package org.example.thread.ex4;
 
 // shared instance
 class MyData{
