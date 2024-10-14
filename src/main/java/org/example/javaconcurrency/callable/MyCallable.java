@@ -1,4 +1,4 @@
-package org.example.javaconcurrency;
+package org.example.javaconcurrency.callable;
 
 import java.util.concurrent.Callable;
 
